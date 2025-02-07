@@ -37,12 +37,20 @@ strong {
 .scroll-to-top {
   background-color: #298eff;
   color: black;
-  border-radius: 2%;
+  border-radius: 5px;
   position: fixed;
   bottom: 20px;
   right: 20px;
+  cursor: pointer;
+  padding: 0;
 }
 
+.custom-font-size {
+  font-size: 14px;
+  padding: 2px 5px;
+  font-weight: bold;
+  text-transform: none;
+}
 
 .userGitBox {
   display: flex;

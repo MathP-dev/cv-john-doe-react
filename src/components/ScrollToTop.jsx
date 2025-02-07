@@ -25,7 +25,7 @@ function ScrollToTopButton() {
 
   return (
     <div className="scroll-to-top">
-      {isVisible && <div onClick={scrollToTop}>Haut de page</div>}
+      {isVisible && <span onClick={scrollToTop} className="custom-font-size">Haut de page</span>}
     </div>
   );
 }

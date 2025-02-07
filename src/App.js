@@ -7,7 +7,7 @@ import Realisations from "./pages/realisations/Realisations";
 import Blog from "./pages/blog/Blog";
 import Contact from "./pages/contact/Contact";
 import Mentions from "./pages/mentions/Mentions";
-import ScrollTop from "./components/ScrollTop";
+import ScrollToTop from "./components/ScrollToTop";
 import UserGithub from "./components/UserGithub";
 
 function App() {
@@ -23,7 +23,7 @@ function App() {
           <Route path="/mentions" element={<Mentions />} />
           <Route path="/User" element={<UserGithub />} />
         </Routes>
-        <ScrollTop />
+        <ScrollToTop />
       </div>
     </HelmetProvider>
   );

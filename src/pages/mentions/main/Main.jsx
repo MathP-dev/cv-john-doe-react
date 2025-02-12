@@ -82,11 +82,11 @@ function Main() {
               le site est héberger par{" "}
               <a
                 className="hebergeur"
-                href="https://www.pixabay.com"
+                href="https://codesandbox.io/p/github/MathP-dev/cv-john-doe-react/draft/stupefied-mcnulty?workspaceId=ws_3V3NbaAMwCJmoozGHyQgi2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                IONOS
+                CodeSandBox
               </a>
             </div>
           </div>

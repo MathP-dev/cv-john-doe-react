@@ -9,6 +9,7 @@ import Contact from "./pages/contact/Contact";
 import Mentions from "./pages/mentions/Mentions";
 import ScrollToTop from "./components/ScrollToTop";
 import UserGithub from "./components/UserGithub";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/mentions" element={<Mentions />} />
           <Route path="/User" element={<UserGithub />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <ScrollToTop />
       </div>
